@@ -11,6 +11,7 @@ sudo apt install -y git vlc flameshot neofetch gnome-tweaks python3-pip
 
 # make fonts folder
 mkdir -p ~/.local/share/fonts/
+mkdir -p ~/wallpapers
 fc-cache -f
 
 # make icons folder
