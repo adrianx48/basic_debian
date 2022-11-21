@@ -14,7 +14,7 @@ mkdir -p ~/.local/share/fonts/
 fc-cache -f
 
 # make wallpaper folder
-mkdir -p ~/.local/share/wallpapers/
+# mkdir -p ~/.local/share/wallpapers/
 
 # make icons folder
 mkdir -p ~/.local/share/icons/
