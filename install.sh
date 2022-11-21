@@ -7,7 +7,7 @@ sudo apt update && sudo apt upgrade -y
 mkdir -p ~/.config/
 
 # install programs and applications
-sudo apt install -y git vlc flameshot neofetch gnome-tweaks python3-pip
+sudo apt install -y git vlc flameshot neofetch gnome-tweaks python3-pip tldr
 
 # make fonts folder
 mkdir -p ~/.local/share/fonts/
