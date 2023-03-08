@@ -8,11 +8,12 @@ mkdir -p ~/.config/
 
 # install programs and applications
 sudo apt install -y git vlc flameshot neofetch python3-pip tldr htop flatpak
+# wget https://download.onlyoffice.com/install/desktop/editors/linux/onlyoffice-desktopeditors_amd64.deb
 
 # Flathub applications
 # sudo apt install flatpak
 # flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-# flatpak install flathub -y org.libreoffice.LibreOffice org.mozilla.firefox org.videolan.VLC 
+# flatpak install flathub -y org.mozilla.firefox org.videolan.VLC com.google.Chrome com.visualstudio.code org.libreoffice.LibreOffice org.onlyoffice.desktopeditors
 
 # make fonts folder
 mkdir -p ~/.local/share/fonts/
