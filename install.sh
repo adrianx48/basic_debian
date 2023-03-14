@@ -10,6 +10,9 @@ mkdir -p ~/.config/
 sudo apt install -y git vlc flameshot neofetch python3-pip tldr htop flatpak
 # wget https://download.onlyoffice.com/install/desktop/editors/linux/onlyoffice-desktopeditors_amd64.deb
 
+# Gnome extensions
+# sudo apt install gnome-shell-extension-manager
+
 # Flathub applications
 # sudo apt install flatpak
 # flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
