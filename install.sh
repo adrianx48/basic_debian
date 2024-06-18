@@ -6,9 +6,18 @@ sudo apt update && sudo apt upgrade -y
 # make config folder
 mkdir -p ~/.config/
 
+# change directory to the Downloads folder
+cd ~/Downloads/
+
 # install programs and applications
-sudo apt install -y git vlc flameshot neofetch python3-pip tldr htop flatpak
+sudo apt install -y git vlc flameshot python3-pip tldr htop flatpak # neofetch
 # wget https://download.onlyoffice.com/install/desktop/editors/linux/onlyoffice-desktopeditors_amd64.deb
+
+# manual downloads 
+# wget https://github.com/fastfetch-cli/fastfetch/releases/latest/fastfetch-linux-amd64.deb
+
+# install from .git files
+# git clone https://github.com/fastfetch-cli/fastfetch.git 
 
 # Gnome extensions
 # sudo apt install gnome-shell-extension-manager
