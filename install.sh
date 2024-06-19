@@ -4,17 +4,21 @@
 sudo apt update && sudo apt upgrade -y
 
 # make config folder
-mkdir -p ~/.config/
+# mkdir -p ~/.config/
 
 # change directory to the Downloads folder
 cd ~/Downloads/
 
 # install programs and applications
 sudo apt install -y git vlc flameshot python3-pip tldr htop flatpak # neofetch
-# wget https://download.onlyoffice.com/install/desktop/editors/linux/onlyoffice-desktopeditors_amd64.deb
 
-# manual downloads 
-# wget https://github.com/fastfetch-cli/fastfetch/releases/latest/fastfetch-linux-amd64.deb
+# manual downloads and installs
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+wget https://github.com/fastfetch-cli/fastfetch/releases/latest/fastfetch-linux-amd64.deb
+wget https://download.onlyoffice.com/install/desktop/editors/linux/onlyoffice-desktopeditors_amd64.deb
+sudo dpkg -i *
+# sudo dpkg -i fastfetch-linux-amd64.deb google-chrome-stable_current_amd64.deb
+
 
 # install from .git files
 # git clone https://github.com/fastfetch-cli/fastfetch.git 
